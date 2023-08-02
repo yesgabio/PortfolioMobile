@@ -65,4 +65,19 @@ ion-card{
       color: rgb(252, 160, 127);
     }
   }
+
+
+
+@media (min-width: 900px) {
+  img{
+    max-width: 50%;
+  }
+  .ajust-card{
+    display: flex;
+    align-items: center;
+    .card-text{
+      margin-left: 10px;
+    }
+  }
+}
 }
