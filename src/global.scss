@@ -24,3 +24,14 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+$bg-gradient: linear-gradient(45deg, rgb(173, 133, 238) 20%, rgb(224, 127, 195) 45%, rgb(252, 139, 165) 60%, rgb(252, 160, 127) 100%);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }

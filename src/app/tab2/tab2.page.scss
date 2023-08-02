@@ -1,0 +1,68 @@
+$bg-gradient: linear-gradient(45deg, rgb(173, 133, 238) 20%, rgb(224, 127, 195) 45%, rgb(252, 139, 165) 60%, rgb(252, 160, 127) 100%);
+
+
+.title {
+  font-family: 'Julius Sans One', sans-serif;
+  height: 10vh;
+  color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: $bg-gradient;
+  background-size: 200% 200%;
+  animation: gradient 5s ease infinite alternate;
+}
+
+.gradient-word {
+  font-family: 'Julius Sans One', sans-serif;
+  background: linear-gradient(0deg, transparent, rgba(255, 255, 255, 0.6));
+  font-size: 2rem;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+
+ion-card{
+  margin: 20px;
+  padding: 10px;
+
+  ion-card-header{
+    font-family: 'Julius Sans One', sans-serif;
+  }
+
+  ion-card-content{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+  }
+
+  a{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: rgb(173, 133, 238);
+
+    &:hover{
+      color:rgb(224, 127, 195);
+    }
+
+    &:visited{
+      color: rgb(252, 160, 127);
+    }
+  }
+}

@@ -1,17 +1,194 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
-  </ion-toolbar>
+<ion-header collapse="condense">
+  <div class="title">
+    <p class="gradient-word">Personal</p>
+  </div>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" class="ion-content">
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Dados Pessoais</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-thumbnail>
+            <ion-icon name="home-outline" size="large"></ion-icon>
+          </ion-thumbnail>
+          <ion-label>Porto Alegre / RS - Brasil</ion-label>
+        </ion-item>
+
+        <ion-item>
+          <ion-thumbnail>
+            <ion-icon name="mail-outline" size="large"></ion-icon>
+          </ion-thumbnail>
+          <ion-label>yesgabio@gmail.com</ion-label>
+        </ion-item>
+
+        <ion-item>
+          <ion-thumbnail>
+            <ion-icon name="call-outline" size="large"></ion-icon>
+          </ion-thumbnail>
+          <ion-label>+55 51 99302-0444</ion-label>
+        </ion-item>
+
+        <ion-item lines="none">
+          <ion-thumbnail>
+            <ion-icon name="balloon-outline" size="large"></ion-icon>
+          </ion-thumbnail>
+          <ion-label>27/12/1990</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Formação Profissional</ion-card-title>
+    </ion-card-header>
+  <ion-text>
+    <ul>
+      <li>Pós-Graduação em Desenvolvimento Full Stack</li>
+      <li>PUCRS - Pontifícia Universidade Católica do Rio Grande do Sul</li>
+          <ion-item>
+            <ion-thumbnail>
+              <ion-icon name="calendar-outline"></ion-icon>
+            </ion-thumbnail>
+            <ion-label>Atualmente</ion-label>
+          </ion-item>
+    </ul>
+    <ul>
+      <li>MBA em Gestão Estratégica de Serviços</li>
+      <li>Fundação Getúlio Vargas</li>
+          <ion-item>
+            <ion-thumbnail>
+              <ion-icon name="calendar-outline"></ion-icon>
+            </ion-thumbnail>
+            <ion-label>06/2017</ion-label>
+          </ion-item>
+    </ul>
+    <ul>
+      <li>Graduação em Administração de Empresas</li>
+      <li>Universidade do Vale do Rio dos Sinos</li>
+          <ion-item>
+            <ion-thumbnail>
+              <ion-icon name="calendar-outline"></ion-icon>
+            </ion-thumbnail>
+            <ion-label>01/2015</ion-label>
+          </ion-item>
+    </ul>
+    <ul>
+      <li>Técnico em Informática - Programação</li>
+      <li>Escola Técnica Mesquita</li>
+          <ion-item lines="none">
+            <ion-thumbnail>
+              <ion-icon name="calendar-outline"></ion-icon>
+            </ion-thumbnail>
+            <ion-label>12/2022</ion-label>
+          </ion-item>
+    </ul>
+  </ion-text>
+</ion-card>
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Experiência Profissional</ion-card-title>
+  </ion-card-header>
+
+  <ul>
+    <li>Técnica LAboratório de Software - Labelo/PUCRS</li>
+    <li>Auxiliar os ensaios dos equipamentos com software embarcado, analisando integridade e demais necessidades também participando de projetos de desenvolvimento interno.</li>
+        <ion-item>
+          <ion-thumbnail>
+            <ion-icon name="caret-up-circle-outline"></ion-icon>
+          </ion-thumbnail>
+          <ion-label>02/2022</ion-label>
+          <ion-thumbnail>
+            <ion-icon name="caret-down-circle-outline"></ion-icon>
+          </ion-thumbnail>
+          <ion-label>06/2013</ion-label>
+        </ion-item>
+  </ul>
+  <ul>
+    <li>Analista de Planejamento e Merchandising - Arezzo&CO</li>
+    <li>Responsável pela compra de lojas próprias, edição de coleção com base em análise de histórico de vendas, divulgação de resultados e controle de estoque.</li>
+        <ion-item>
+          <ion-thumbnail>
+            <ion-icon name="caret-up-circle-outline"></ion-icon>
+          </ion-thumbnail>
+          <ion-label>06/2021</ion-label>
+          <ion-thumbnail>
+            <ion-icon name="caret-down-circle-outline"></ion-icon>
+          </ion-thumbnail>
+          <ion-label>10/2021</ion-label>
+        </ion-item>
+  </ul>
+  <ul>
+    <li>Compradora - Void General Store</li>
+    <li>Responsável pelas compras dos produtos da linha de negócio de alto giro para as onze lojas da rede, realização do cálculo do custo médio da mercadoria, acompanhar o ciclo de vida do produto, controlar a compra futura e curadoria desses produtos.</li>
+        <ion-item>
+          <ion-thumbnail>
+            <ion-icon name="caret-up-circle-outline"></ion-icon>
+          </ion-thumbnail>
+          <ion-label>12/2017</ion-label>
+          <ion-thumbnail>
+            <ion-icon name="caret-down-circle-outline"></ion-icon>
+          </ion-thumbnail>
+          <ion-label>04/2020</ion-label>
+        </ion-item>
+  </ul>
+  <ul>
+    <li>Expert I - Uber Tecnologia</li>
+    <li>Atendimento ao motorista parceiro Uber, realização de palestras para novos motoristas e workshops sobre atendimento.</li>
+        <ion-item>
+          <ion-thumbnail>
+            <ion-icon name="caret-up-circle-outline"></ion-icon>
+          </ion-thumbnail>
+          <ion-label>04/2017</ion-label>
+          <ion-thumbnail>
+            <ion-icon name="caret-down-circle-outline"></ion-icon>
+          </ion-thumbnail>
+          <ion-label>10/2017</ion-label>
+        </ion-item>
+  </ul>
+  <ul>
+    <li>Atendimento Acadêmico - Fundação Getúlio Vargas</li>
+    <li>Realizar procedimentos de natureza acadêmica, financeira e comercial nas transferências de alunos entre conveniadas da Fundação Getúlio Vargas de todo o Brasil.</li>
+        <ion-item lines="none">
+          <ion-thumbnail>
+            <ion-icon name="caret-up-circle-outline"></ion-icon>
+          </ion-thumbnail>
+          <ion-label>04/2011</ion-label>
+          <ion-thumbnail>
+            <ion-icon name="caret-down-circle-outline"></ion-icon>
+          </ion-thumbnail>
+          <ion-label>08/2016</ion-label>
+        </ion-item>
+  </ul>
+</ion-card>
+
+
+
+<ion-card>
+  <ion-text>
+    <div class="ion-text-center">Find me on social media.</div>
+  </ion-text>
+<div class="social-icons">
+      <a href="https://www.instagram.com/yesgabio/" target="_blank">
+        <ion-icon name="logo-instagram" size="large"></ion-icon>
+      </a>
+      <a href="https://twitter.com/yesgabio" target="_blank">
+        <ion-icon name="logo-twitter" size="large"></ion-icon>
+      </a>
+      <a href="https://github.com/yesgabio" target="_blank">
+        <ion-icon name="logo-github" size="large"></ion-icon>
+      </a>
+      <a href="https://www.linkedin.com/in/yesgabio/" target="_blank">
+        <ion-icon name="logo-linkedin" size="large"></ion-icon>
+      </a>
+</div>
+</ion-card>
+
+
 </ion-content>

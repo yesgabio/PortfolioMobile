@@ -1,17 +1,115 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
-  </ion-toolbar>
+
+<ion-header collapse="condense">
+  <div class="title">
+    <p class="gradient-word">Projects</p>
+  </div>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" class="content">
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-card >
+    <img alt="blog angular" src="assets/img/imgone.jpeg"/>
+    <ion-card-header>
+      <ion-card-title>Blog Angular</ion-card-title>
+      <ion-card-subtitle>HTML, CSS e TypeScript</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      Projeto realizado dentro do bootcamp da Digital Innovation One, feito com material de acervo pessoal e com imagens publicas.
+      O blog é inspirado em um design da site dribble, possui navegação entre as páginas e conteúdo dinâmico. Uma aplicação web que procura alinhar conteúdo com design.
+    </ion-card-content>
+    <a href="https://github.com/yesgabio/angular-blog" target="_blank">GitHub</a>
+  </ion-card>
+
+  <ion-card >
+    <img alt="web bootstrap" src="assets/img/webbootstrap.png"/>
+    <ion-card-header>
+      <ion-card-title>Web Site Bootstrap</ion-card-title>
+      <ion-card-subtitle>HTML E CSS</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      Web site construído como ferramenta de estudo para utilização do framework bootstrap. Focado no design, o site utiliza fotos disponíveis na web e procura criar uma atração visual ao cliente que deseja comprar os produtos da suposta loja de bolsas.
+    </ion-card-content>
+    <a href="https://github.com/yesgabio/webBootstrap" target="_blank">GitHub</a>
+  </ion-card>
+
+  <ion-card>
+    <img alt="estudio foto" src="assets/img/Capturar.PNG"/>
+    <ion-card-header>
+      <ion-card-title>Web Site</ion-card-title>
+      <ion-card-subtitle>HTML e CSS</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      Web site construído como ferramenta de estudo para essas duas liguagens. Desenvolvido para a disciplina de web no curso técnico em informática o projeto ajudou muito no desenvolvimento do estudo dessas duas linguagens de programação.
+      Com efeitos em CSS o projeto é feito em uma página e o formulário ao final possui direcionamento a outra página desenvolvida. Possui links externos e construção de portifólio fotográfico com imagens públicas.
+    </ion-card-content>
+    <a href="https://github.com/yesgabio/WEB--EstudioFotografico" target="_blank">GitHub</a>
+  </ion-card>
+
+  <ion-card>
+    <img alt="first react" src="assets/img/webreact.png"/>
+    <ion-card-header>
+      <ion-card-title>Web Site React</ion-card-title>
+      <ion-card-subtitle>HTML, CSS e JavaScript</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      Web site construído em HTML, CSS e JavaScript para o trabalho final da disciplina de web no curso técnico em informática. Primeiro projeto Full Stack, com conexão ao banco de dados relacional, o web site possibilita ao usuário realizar CRUD (Created, Read, Update, Delete) dos produtos.  Neste projeto também foram utilizadas as tecnologias Node e Vue. Com imagens públicas e design próprio o projeto possui navegação entre as páginas e links externos.
+    </ion-card-content>
+    <a href="https://github.com/yesgabio/firstReactFullStack" target="_blank">GitHub</a>
+  </ion-card>
+
+  <ion-card>
+    <img alt="buzzfeed angular" src="assets/img/buzzfeed2.png"/>
+    <ion-card-header>
+      <ion-card-title>Buzzfeed Angular</ion-card-title>
+      <ion-card-subtitle>HTML, CSS e TypeScript</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      Criação de um clone do buzzfeed com Angular, utilizando HTML, CSS e TypeScript. Projeto realizado dentro do bootcamp da Digital Innovation One, feito com base no material disponibilizado no bootcamp. Com algumas modificações de design e de assunto pessoais, o site possui navegação complexa que depende da resposta do usuário. Projeto muito interessante e de grande aprendizado.
+    </ion-card-content>
+    <a href="https://github.com/yesgabio/projeto-buzzfeed" target="_blank">GitHub</a>
+  </ion-card>
+
+  <ion-card>
+    <img alt="pokedex" src="assets/img/pokedex1.png"/>
+    <ion-card-header>
+      <ion-card-title>Pokedex JavaScript</ion-card-title>
+      <ion-card-subtitle>HTML, CSS e TypeScript</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      Criação web com a utilização de uma API do Pokemon, utilizando HTML, CSS e JavaScript. Projeto realizado dentro do bootcamp da Digital Innovation One, feito com base no material disponibilizado no bootcamp. Utilizando design pessoal, a página possui carregamento conforme a utilização do usuário, fazendo consulta direta na API. Primeiro projeto realizado utilizando dados de uma API.
+    </ion-card-content>
+    <a href="https://github.com/yesgabio/js-developer-pokedex" target="_blank">GitHub</a>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Web Scraping</ion-card-title>
+      <ion-card-subtitle>Python, JavaScript, CSS E HTML</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      Projeto desenvolvido para a área comercial auxiliando nas ferramentas de marketing share do setor. O software faz uma varredura no site do Inmetro buscando informações de empresas que necessitam realizar certificações com o orgão e compila estas informações em arquivo .csv, para melhorar a manipulação dos dados para o setor.
+    </ion-card-content>
+    <a href="https://github.com/yesgabio/mkt-share-python" target="_blank">GitHub</a>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Criptografia de Assinatura</ion-card-title>
+      <ion-card-subtitle>JavaScript, CSS E HTML</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      Projeto desenvolvido para garantir a autenticidade das assinaturas realizadas pelos engenheiros e signatários do laboratório. Utilizando o conceito de criptografia aplicada na assinatura digital que utiliza duas chaves - uma pública e uma privada - o software, em conjunto com outros softwares desenvolvidos, verifica a autenticidade da assinatura e protege o conteúdo do relatório emitido.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Dashboard de Monitoramento em Angular</ion-card-title>
+      <ion-card-subtitle>HTML, CSS e TypeScript</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      Projeto desenvolvido para melhor visualização das atividades desempenhadas pelo laboratório, através de dashboards os dados de cada atividade são compilados e analisados de maneira que possam ser melhor monitorados pela gerência.
+    </ion-card-content>
+  </ion-card>
+
 </ion-content>
